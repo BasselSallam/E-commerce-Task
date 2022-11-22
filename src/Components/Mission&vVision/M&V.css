@@ -1,0 +1,55 @@
+.mvContainer{
+    max-width: 85.417vw;
+    width: 100%;
+    height: 25.677vw;
+    margin: auto;
+    position: relative;
+}
+#MV{
+    color: #f26522;
+    font-weight: normal;
+    margin-bottom: 3.646vw;
+}
+.backgroundVision{
+    position: absolute;
+    top: 8.099vw;
+    left: 0;
+    width: 27.604vw;
+    height: 17.552vw;
+    background-color: #f26522;
+    opacity: 10%;
+
+}
+.imgVision{
+    position: absolute;
+    top: 6.38vw;
+    left: 1.042vw;
+    width: 37.292vw;
+    height: 18.333vw;
+    z-index: 5;
+
+}
+.mvDetails{
+    width: 41.823vw;
+    max-height: 18.385vw;
+    height: 100%;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+.mvData{
+    height: 9.688vw;
+    align-items: flex-end;
+}
+.text{
+    width: 30.372vw;
+    height: 6.563vw;
+    text-align: left;
+    font-size: 0.938vw;
+}
+.imgIcon{
+    width: 4.427vw;
+    height: 4.427vw;
+}
+
+

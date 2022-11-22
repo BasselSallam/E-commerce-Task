@@ -1,0 +1,53 @@
+.card {
+    border-radius: 0;
+    box-shadow: 0px 1px 5px rgb(237, 237, 237);
+}
+
+.card-body {
+    box-sizing: border-box;
+}
+
+.card-title {
+    color: #14325C;
+    font-size: 1.146vw;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 1.042vw;
+    margin-top: 1.042vw;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 1.146vw; */
+}
+
+.prices {
+    width: 11.927vw;
+}
+
+.oldPrice {
+    color: #8998AD;
+}
+
+.prices:nth-child(2) {
+    color: #F26522;
+}
+
+/* .btnParent {
+    margin-top: 3.021vw;
+    margin-bottom: 2.604vw;
+} */
+
+.addToCart {
+    background-color: #F26522;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+
+.moreDetails {
+    color: #F26522;
+    border: 1px solid #F26522;
+    border-radius: 8px;
+    background-color: white;
+}

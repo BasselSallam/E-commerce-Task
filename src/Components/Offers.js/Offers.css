@@ -1,0 +1,26 @@
+.offersContainer{
+    width: 100%;
+    height: 26.042vw;
+    background-image: url('../../Assets/offers.png');
+
+}
+.ourOffers{
+    padding-top: 4.219vw;
+    margin-bottom: 2.24vw;
+    color: #f26522;
+    font-weight: normal;
+}
+.save{
+    font-size: 1.563vw;
+    margin-bottom: 1.563vw;
+    color: white;
+}
+.offerBtn{
+    margin-top: 2.031vw;
+    width: 10.625vw;
+    height: 2.865vw;
+    background-color: #f26522;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}

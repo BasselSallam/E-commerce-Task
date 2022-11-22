@@ -1,0 +1,59 @@
+.footerContainer {
+    background-color: #112857;
+    height: 22.76vw;
+}
+
+.smallerrContainer {
+    margin: auto;
+    padding-top: 5.208vw;
+    width: 85.417vw;
+    height: 12.656vw;
+    box-sizing: content-box;
+
+}
+
+.company {
+    color: white;
+    text-align: left;
+}
+.footerLogo img{
+    width: 16.979vw;
+}
+
+.newsLetter {
+    color: white;
+    width: 21.927vw;
+    text-align: left;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.smallerNewsLetter {
+    padding: 1.302vw 2.083vw;
+}
+
+a {
+    opacity: 70%;
+    margin-top: 0.729vw;
+    text-decoration: none;
+    color: white;
+}
+
+.newsInput {
+    border: none;
+    background-color: rgba(255, 255, 255, 0.57);
+    color: white;
+}
+.newsBtn{
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: #14325C;
+    width: 4.115vw;
+}
+::placeholder{
+    padding-left: 1.198vw;
+    color: white;
+}
+h3 {
+    font-weight: normal;
+}

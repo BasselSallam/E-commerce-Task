@@ -1,0 +1,49 @@
+.viceContainer {
+    max-width: 1640px;
+    width: 100%;
+    height: 569px;
+    margin: auto;
+    align-items: center;
+    margin-top: 3.646vw;
+    margin-bottom: 5.208vw;
+}
+
+
+.vice {
+    max-width: 32.344vw;
+    height: 29.635vw;
+}
+
+.viceMessage {
+    box-sizing: border-box;
+    float: right;
+    text-align: left;
+    border-radius: 10px 0px 0px 10px;
+    background-color: #14325C;
+    color: white;
+    max-width: 53.073vw;
+    height: 21.892vw;
+    padding: 2.5vw 2.682vw 3.844vw 2.604vw;
+}
+
+.viceMessage:first-child {
+    margin-bottom: 1.042vw;
+}
+
+.imgVice {
+    border: 1px solid black;
+    border-radius: 4%;
+    width: 100%;
+    height: 100%;
+}
+
+.viceContent {
+    font-size: 0.938vw;
+    color: #B6BCC7;
+
+}
+
+.viceHeader {
+    font-size: 1.146vw;
+    margin-bottom: 1.042vw;
+}

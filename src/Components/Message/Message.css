@@ -1,0 +1,53 @@
+.mesContainer {
+    max-width: 85.417vw;
+    width: 100%;
+    height: 569px;
+    margin: auto;
+    align-items: center;
+    margin-top: 3.646vw;
+}
+
+#Mes {
+    margin-top: 5.245vw;
+    color: #f26522;
+    font-weight: normal;
+}
+
+.president {
+    max-width: 32.344vw;
+    height: 29.635vw;
+}
+
+.message {
+    box-sizing: border-box;
+    float: right;
+    text-align: left;
+    border-radius: 0 10px 10px 0;
+    background-color: #14325C;
+    color: white;
+    max-width: 53.073vw;
+    height: 26.816vw;
+    padding: 1.042vw 3.594vw 2.026vw 1.589vw;
+}
+
+.message:first-child {
+    margin-bottom: 1.042vw;
+}
+
+.imgPresident {
+    border: 1px solid black;
+    border-radius: 4%;
+    width: 100%;
+    height: 100%;
+}
+
+.mesContent {
+    font-size: 0.938vw;
+    color: #B6BCC7;
+
+}
+
+.presHeader {
+    font-size: 1.146vw;
+    margin-bottom: 1.042vw;
+}

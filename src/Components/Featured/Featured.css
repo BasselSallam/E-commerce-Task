@@ -1,0 +1,77 @@
+.featuredContainer {
+    height: 41.927vw;
+    width: 100%;
+    background-color: #F9F9F9;
+}
+
+.fHeader {
+    color: #f26522;
+    padding-top: 2.344vw;
+    font-weight: normal;
+}
+
+.smallContainer {
+    max-width: 85.417vw;
+    max-height: 35.521vw;
+    margin-top: 2.344vw;
+    margin-bottom: 4.063vw;
+    margin: auto;
+}
+
+.backgroundFeatured {
+    position: absolute;
+    top: 7.708vw;
+    right: 0;
+    width: 38.698vw;
+    height: 28.594vw;
+    background-color: #f26522;
+    opacity: 10%;
+}
+
+._title{
+    color: #f26522;
+    font-size: 1.823vw;
+    margin-top: 2.396vw;
+    margin-bottom: 1.667vw;
+}
+._feeling{
+    color: #14325C;
+    opacity: 70%;
+    font-size: 1.146vw;
+}
+
+.imgFeatured {
+    position: absolute;
+    top: 9.271vw;
+    right: 1.563vw;
+    width: 38.698vw;
+    height: 28.594vw;
+    z-index: 5;
+
+}
+
+.dataContainer{
+    width: 41.823vw;
+    max-height: 18.385vw;
+    height: 100%;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.dataDiv{
+    margin-top: 1.042vw;
+    margin-bottom: 1.042vw;
+
+}
+.sMore{
+    width: 9.531vw;
+    height: 2.917vw;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: #F26522;
+    position: absolute;
+    top: 34.896vw;
+    left: 0;
+}

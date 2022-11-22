@@ -1,0 +1,101 @@
+.prdContainer {
+    max-width: 87.117vw;
+    /* max-height: 65.938vw; */
+    margin: auto;
+    align-items: center;
+    margin-top: 4.948vw;
+    margin-bottom: 5.208vw;
+}
+
+#prd {
+    color: #f26522;
+    font-weight: normal;
+    margin-bottom: 3.646vw;
+}
+
+.bhHnmT {
+    margin: 0;
+}
+
+.seeMore {
+
+    width: 10.417vw;
+    height: 2.917vw;
+    background-color: white;
+    color: #f26522;
+    border: 1px solid #f26522;
+    border-radius: 10px;
+    margin-top: 3.646vw;
+}
+
+#leftArrowPrd {
+    position: absolute;
+    background: #f26522;
+    border-radius: none;
+    box-shadow: 0 0 5px 0 #0009;
+    z-index: 10;
+    cursor: pointer;
+    font-size: 10px;
+    opacity: 0.3;
+    -webkit-transition: opacity 0.25s;
+    transition: opacity 0.25s;
+    right: initial;
+    width: 2.813vw !important;
+    height: 7.448vw !important;
+    left: -4vw !important;
+    top: calc(48.4% - 17.5px) !important;
+}
+#leftArrowPrd:hover,
+#rightArrowPrd:hover{
+    opacity: 1!important;
+}
+
+#leftArrowPrd::before {
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: transparent;
+    border-top: 2px solid white !important;
+    border-right: 2px solid white !important;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-25%, -50%) rotate(-135deg);
+    -ms-transform: translate(-25%, -50%) rotate(-135deg);
+    transform: translate(-25%, -50%) rotate(-135deg);
+}
+
+#rightArrowPrd {
+    position: absolute;
+    background: #f26522;
+    border-radius: none;
+    box-shadow: 0 0 5px 0 #0009;
+    z-index: 10;
+    cursor: pointer;
+    font-size: 10px;
+    opacity: 0.3;
+    -webkit-transition: opacity 0.25s;
+    transition: opacity 0.25s;
+    left: initial;
+    width: 2.813vw !important;
+    height: 7.448vw !important;
+    right: -4vw !important;
+    top: calc(48.4% - 17.5px) !important;
+}
+
+#rightArrowPrd::before {
+    content: '';
+    height: 10px;
+    width: 10px;
+    background: transparent;
+    border-top: 2px solid white !important;
+    border-right: 2px solid white !important;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-75%, -50%) rotate(45deg);
+    -ms-transform: translate(-75%, -50%) rotate(45deg);
+    transform: translate(-75%, -50%) rotate(45deg);
+}

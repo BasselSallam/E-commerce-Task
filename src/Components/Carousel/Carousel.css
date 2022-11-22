@@ -1,0 +1,71 @@
+.carousel .carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: #14325C;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 10% !important;
+}
+
+.img-gradient::after {
+    display: block;
+    position: relative;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0) 50%, #fff 100%);
+    margin-top: -29.167vw;
+    height: 28.646vw;
+    width: 100%;
+    content: '';
+}
+
+.carousel .carousel-indicators button {
+    width: 0.521vw !important;
+    height: 0.521vw !important;
+}
+
+.blissLine {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: start;
+    position: absolute;
+    top: 6.927vw;
+    left: 7.292vw;
+    width: 21.406vw;
+    height: 14.948vw;
+    z-index: 5;
+}
+
+.showRoom {
+    position: absolute;
+    bottom: 4.01vw;
+    right: 0.781vw;
+    z-index: 5;
+    width: 5.729vw;
+    height: 5.729vw;
+    border-radius: 100%;
+    background-color: #F26522;
+    border: none;
+    color: white;
+    transition: all .2s ease-in-out;
+}
+
+.carouselBtn {
+    width: 10.417vw;
+    height: 2.917vw;
+    background-color: #F26522;
+    transition: all .2s ease-in-out;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+button {
+    transition: all .2s ease-in-out
+}
+
+button:hover {
+    transform: scale(1.1);
+}
